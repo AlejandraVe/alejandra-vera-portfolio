@@ -1,7 +1,14 @@
-
+:root {
+    --primary-color: #FED1BC;
+    --secondary-color: #F7896E;
+    --third-color: #FEB483;
+    --primary-font-family: "Poppins", sans-serif;
+    --secondary-font-family: "Playfair Display", serif;
+    --box-shadow: 2px 2px 5px gray;
+}
 
 .hero {
-  background-color: bisque;
+  background-color: var(--primary-color);
   text-align: center;
   padding-bottom: 25px;
 }
@@ -13,7 +20,8 @@ margin: -50px;
 }
 
 .hero .hello {
-    margin-top: -150px;
+    margin: -120px 10px 0px 10px;
+    font-family: var(--secondary-font-family);
 }
 
 .hero h1 {
@@ -22,15 +30,21 @@ margin: -50px;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font-family);
   font-weight: 300;
   font-style: normal;
   font-size: 36px;
 }
 
 .hero button {
-    background-color: rgb(190, 210, 247);
-    font-family: "Poppins", sans-serif;
+    background-color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    color: white;
     border: none;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow: var(--box-shadow);
+}
+
+.hero button:hover {
+    background-color: var(--third-color);
+    color: white;
 }
