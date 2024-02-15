@@ -1,11 +1,36 @@
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+
+
+.hero {
+  background-color: bisque;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.logo {
+    display: flex;
+    width: 250px;
+margin: -50px;
+}
+
+.hero .hello {
+    margin-top: -150px;
+}
+
+.hero h1 {
+    font-size: 96px;
+    padding-bottom: 15px;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
+  font-size: 36px;
+}
+
+.hero button {
+    background-color: rgb(190, 210, 247);
+    font-family: "Poppins", sans-serif;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
 }
