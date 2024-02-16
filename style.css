@@ -52,6 +52,11 @@
   font-weight: bold;
 }
 
+.container-fluid .projects {
+    border: 10px solid var(--primary-color);
+    border-radius: 5px;
+}
+
 .container-fluid p {
   font-family: var(--primary-font-family);
   font-size: 16px;
