@@ -9,8 +9,6 @@
 
 .hero {
   background-color: var(--primary-color);
-  text-align: center;
-  padding-bottom: 25px;
 }
 
 .logo {
@@ -20,13 +18,12 @@ margin: -50px;
 }
 
 .hero .hello {
-    margin: -120px 10px 0px 10px;
+    margin: -120px 10px 0px 0px;
     font-family: var(--secondary-font-family);
 }
 
 .hero h1 {
     font-size: 96px;
-    padding-bottom: 15px;
 }
 
 p {
