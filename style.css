@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #FED1BC;
-    --secondary-color: #F7896E;
-    --third-color: #FEB483;
-    --primary-font-family: "Poppins", sans-serif;
-    --secondary-font-family: "Playfair Display", serif;
-    --box-shadow: 2px 2px 5px gray;
+  --primary-color: rgb(254, 209, 188, 70%);
+  --secondary-color: #f7896e;
+  --third-color: #feb483;
+  --primary-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "Playfair Display", serif;
+  --box-shadow: 2px 2px 5px gray;
 }
 
 .hero {
@@ -12,18 +12,18 @@
 }
 
 .logo {
-    display: flex;
-    width: 250px;
-margin: -50px;
+  display: flex;
+  width: 250px;
+  margin: -50px;
 }
 
 .hero .hello {
-    margin: -120px 10px 0px 0px;
-    font-family: var(--secondary-font-family);
+  margin: -120px 10px 0px 0px;
+  font-family: var(--secondary-font-family);
 }
 
 .hero h1 {
-    font-size: 96px;
+  font-size: 96px;
 }
 
 p {
@@ -34,14 +34,18 @@ p {
 }
 
 .hero button {
-    background-color: var(--secondary-color);
-    font-family: var(--primary-font-family);
-    color: white;
-    border: none;
-    box-shadow: var(--box-shadow);
+  background-color: var(--secondary-color);
+  font-family: var(--primary-font-family);
+  color: white;
+  border: none;
+  box-shadow: var(--box-shadow);
 }
 
 .hero button:hover {
-    background-color: var(--third-color);
-    color: white;
+  background-color: var(--third-color);
+  color: white;
+}
+
+.container-fluid {
+    padding-top: 70px;
 }
