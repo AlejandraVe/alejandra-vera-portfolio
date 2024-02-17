@@ -13,13 +13,16 @@
 
 .logo {
   display: flex;
-  width: 250px;
-  margin: -50px;
+  width: 200px;
+  margin: -80px;
 }
 
 .hero .hello {
-  margin: -120px 10px 0px 0px;
   font-family: var(--secondary-font-family);
+}
+
+.hero .hello-i-am {
+    margin-bottom: 0px;
 }
 
 .hero h1 {
@@ -80,10 +83,8 @@
 
 @media (max-width: 900px) {
 .logo {
-  display: flex;
-  margin-top: -120px;
-  margin-left: -60px;
-  width: 180px;
+  width: 140px;
+  margin: -50px;
 }
     .hero {
     padding: 80px 20px;
@@ -95,6 +96,13 @@
 
 .hero p {
     font-size: 25px;
+}
+
+.hero .second-button {
+    background-color: white;
+    color: var(--secondary-color);
+    box-shadow: none;
+    border: 1px solid var(--secondary-color);
 }
 
     .container-fluid {
