@@ -21,10 +21,6 @@
   font-family: var(--secondary-font-family);
 }
 
-.hero .hello-i-am {
-    margin-bottom: 0px;
-}
-
 .hero h1 {
   font-size: 96px;
 }
@@ -36,7 +32,8 @@
   font-size: 36px;
 }
 
-.hero a {
+.hero a,
+#post-button {
   background-color: var(--secondary-color);
   font-family: var(--primary-font-family);
   color: white;
@@ -44,7 +41,8 @@
   box-shadow: var(--box-shadow);
 }
 
-.hero a:hover {
+.hero a:hover,
+#post-button:hover {
   background-color: var(--third-color);
   color: white;
 }
@@ -85,6 +83,10 @@
    border-radius: 10px;
    border: 1px solid var(--primary-color);
    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.contact-form {
+    font-family: var(--primary-font-family);
 }
 
 @media (max-width: 900px) {

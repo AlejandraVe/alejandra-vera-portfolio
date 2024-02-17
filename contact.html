@@ -21,36 +21,88 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img src="images/AV.png" alt="" class="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../index.html">Homepage</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../about.html">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="../contact.html">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="images/AV.png" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="text-center hero">
+        <div class="hello">
+            <p class="pt-4 hello-i-am">Hello! I'm</p>
+            <h1>Alejandra Vera</h1>
+            <p>Front-End developer based in Spain</p>
         </div>
     </div>
-</nav>
 
-<div class="text-center hero">
-    <div class="hello">
-        <p class="pt-4 hello-i-am">Hello! I'm</p>
-        <h1>Alejandra Vera</h1>
-        <p>Front-End developer based in Spain</p>
+    <div class="mb-5 p-5 contact-form">
+        <h1 class="mb-4">Contact Form</h1>
+        <form id="contact_form" name="contact_form" method="post">
+            <div class="mb-5 row">
+                <div class="col">
+                    <label>First Name</label>
+                    <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+                </div>
+                <div class="col">
+                    <label>Last Name</label>
+                    <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+                </div>
+            </div>
+            <div class="mb-5 row">
+                <div class="col">
+                    <label for="email_addr">Email address</label>
+                    <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                        placeholder="name@example.com">
+                </div>
+                <div class="col">
+                    <label for="phone_input">Phone</label>
+                    <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                        placeholder="Phone">
+                </div>
+            </div>
+            <div class="mb-5">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary px-4 btn-lg" id="post-button">Post</button>
     </div>
-</div>
+    </form>
+    <footer class="text-center pt-5 mt-5 mb-3">
+        This website was coded by <a href="https://www.linkedin.com/in/alejandra-vera-vela-230714147/">Alejandra Vera</a>
+        and is hosted in <a href="https://alejandra-vera-portfolio.netlify.app/">Netlify</a>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/92d27a63a4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        function reload() {
+            alert("Thank you for your message, we'll be in touch 😊");
+            location.reload();
+        }
+
+        let post = document.querySelector("#post-button");
+        post.addEventListener("click", reload);
+
+    </script>
 </body>
 
 </html>
