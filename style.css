@@ -33,7 +33,7 @@
   font-size: 36px;
 }
 
-.hero button {
+.hero a {
   background-color: var(--secondary-color);
   font-family: var(--primary-font-family);
   color: white;
@@ -41,10 +41,11 @@
   box-shadow: var(--box-shadow);
 }
 
-.hero button:hover {
+.hero a:hover {
   background-color: var(--third-color);
   color: white;
 }
+
 
 .container-fluid h2 {
   font-size: 64px;
