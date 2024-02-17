@@ -63,7 +63,7 @@
 
 .container-fluid p {
   font-family: var(--primary-font-family);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
 }
 
@@ -79,6 +79,12 @@
 .container-fluid .btn-branding-outline:hover {
  border: 1px solid var(--secondary-color);
  color: black;  
+}
+
+.projects {
+   border-radius: 10px;
+   border: 1px solid var(--primary-color);
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
 
 @media (max-width: 900px) {
