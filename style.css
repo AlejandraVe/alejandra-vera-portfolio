@@ -17,7 +17,8 @@
   margin: -80px;
 }
 
-.hero .hello {
+.hello,
+h3 {
   font-family: var(--secondary-font-family);
 }
 
@@ -25,11 +26,24 @@
   font-size: 96px;
 }
 
-.hero p {
+.hello {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.about-text {
+  margin-left: 100px;
+}
+
+.about-text p {
+  font-size: 20px;
+}
+
+p {
   font-family: var(--primary-font-family);
   font-weight: 300;
   font-style: normal;
-  font-size: 36px;
+  font-size: 25px;
 }
 
 .hero a,
@@ -47,16 +61,16 @@
   color: white;
 }
 
-
 .container-fluid h2 {
   font-size: 64px;
   font-family: var(--secondary-font-family);
   font-weight: bold;
 }
 
-.container-fluid .projects {
-    border: 10px solid var(--primary-color);
-    border-radius: 5px;
+.container-fluid .projects,
+.photo-ale {
+  border: 10px solid var(--primary-color);
+  border-radius: 5px;
 }
 
 .container-fluid p {
@@ -65,58 +79,60 @@
   line-height: 30px;
 }
 
-.container-fluid .btn-branding-outline {
-    color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+.container-fluid .btn-branding-outline,
+.see-projects-button .see-projects {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
-.container-fluid .btn-branding-outline:hover {
- border: 1px solid var(--secondary-color);
- color: black;  
+.container-fluid .btn-branding-outline:hover,
+.see-projects-button .see-projects:hover {
+  border: 1px solid var(--secondary-color);
+  color: black;
 }
 
 .projects {
-   border-radius: 10px;
-   border: 1px solid var(--primary-color);
-   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .contact-form {
-    font-family: var(--primary-font-family);
+  font-family: var(--primary-font-family);
 }
 
 @media (max-width: 900px) {
-.logo {
-  width: 140px;
-  margin: -50px;
-}
-    .hero {
+  .logo {
+    width: 140px;
+    margin: -50px;
+  }
+  .hero {
     padding: 80px 20px;
-}
-.hero h1 {
+  }
+  .hero h1 {
     font-size: 44px;
     line-height: 2;
-}
+  }
 
-.hero p {
+  .hero p {
     font-size: 25px;
-}
+  }
 
-.hero .second-button {
+  .hero .second-button {
     background-color: white;
     color: var(--secondary-color);
     box-shadow: none;
     border: 1px solid var(--secondary-color);
-}
+  }
 
-    .container-fluid {
+  .container-fluid {
     text-align: center;
-}
-    .container-fluid h2 {
+  }
+  .container-fluid h2 {
     font-size: 44px;
-}
+  }
 }
