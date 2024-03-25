@@ -140,4 +140,8 @@ p {
   .container-fluid h2 {
     font-size: 44px;
   }
+
+  .contact-page {
+    text-align: center;
+  }
 }
