@@ -134,14 +134,21 @@ p {
     border: 1px solid var(--secondary-color);
   }
 
-  .container-fluid {
+  .container-fluid,
+  .hello,
+  .contact-page {
     text-align: center;
   }
   .container-fluid h2 {
     font-size: 44px;
   }
 
-  .contact-page {
+  .row .about-text {
     text-align: center;
+    margin: 0px;
+  }
+  .photo-ale {
+    display: block;
+    margin: 0 auto;
   }
 }
