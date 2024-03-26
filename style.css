@@ -110,6 +110,33 @@ p {
   font-family: var(--primary-font-family);
 }
 
+footer .contact-email a {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  font-family: var(--primary-font-family);
+}
+
+footer .contact-email a:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-media i {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 20px;
+  margin: 15px;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-media i:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
 @media (max-width: 900px) {
   .logo {
     width: 140px;
